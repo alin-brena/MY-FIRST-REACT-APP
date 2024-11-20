@@ -1,0 +1,59 @@
+
+html { background-color: rgb(187, 12, 227);
+}
+
+/* Contador.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Times new roman', sans-serif;
+  background-color: #d6cddb;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+
+.counter-display {
+  font-size: 3rem;
+  color: #90caef;
+  margin: 20px 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color:#f18dbc;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  background-color: #003d80;
+}
+
+.button.reset {
+  background-color: #e0218a;
+}
+
+.button.reset:hover {
+  background-color: #a71d2a;
+}
+
+.button.reset:active {
+  background-color: #7d141f;
+}
